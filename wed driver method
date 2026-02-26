@@ -1,0 +1,24 @@
+. get()
+Opens a webpage.
+driver.get("https://example.com");
+
+2. getTitle()
+Returns the page title.
+
+3. getCurrentUrl()
+Returns the current page URL.
+
+4. findElement()
+Finds a web element on the page.
+
+5. close()
+Closes the current browser window.
+
+6. quit()
+Closes all browser windows and ends the session.
+
+7. getWindowHandle()
+Returns the ID of the current browser window.
+
+8. getWindowHandles()
+Returns IDs of all open browser windows.
