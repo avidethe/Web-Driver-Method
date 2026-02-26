@@ -1,0 +1,39 @@
+package velo.com;
+import org.openqa.selenium.chrome.ChromeDriver;
+class Velo 
+{
+
+  	public static void main(String[] args) throws InterruptedException 
+ {
+		ChromeDriver driver = new ChromeDriver();
+		Thread.sleep(2000); // 2000 milliseconds = 2 seconds	
+		driver.manage().window().maximize();
+		driver.get("https://www.youtube.com/");
+	
+	  //	String handle = driver.getWindowHandle();
+		
+	  	System.out.println(driver.getCurrentUrl());
+		
+	  	System.out.println(driver.getTitle());
+		
+	  	System.out.println(driver.getCurrentUrl());
+		
+  		System.out.println(driver.getTitle());
+		
+  		System.out.println(driver.getPageSource());
+		
+  		System.out.println(driver.navigate());
+	
+	  	System.out.println(driver.manage());
+		
+  		System.out.println(driver.getWindowHandle());
+		
+	  	System.out.println(driver.getWindowHandles());
+		 
+  		System.out.println(driver.switchTo());			
+		
+  	driver.close();
+
+	}
+
+}
